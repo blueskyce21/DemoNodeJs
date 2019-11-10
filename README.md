@@ -7,14 +7,17 @@ In cmd: node path/filename emailid
 
 For example:
 
-Testcase 1:
-node filename abcd
+Testcase 1: no email id
+command : node filename
+output : Please enter an email address
 
-Please enter a valid email address
+Testcase 2: invalid emaild
+command : node filename abcd
+output : Please enter a valid email address
 
-Testcase 2:
-node filename abc@gmail.com
-
+Testcase 3: valid emailid
+command : node filename abc@gmail.com
+output:
 Dear Customer, following is your order status:-
 
 Shipment Date : 2019-07-22T17:00:00
