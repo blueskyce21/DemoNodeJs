@@ -7,12 +7,10 @@ In cmd: node path/filename emailid
 
 For example:
 
-
 Testcase 1:
 node filename abcd
 
 Please enter a valid email address
-
 
 Testcase 2:
 node filename abc@gmail.com
